@@ -18,6 +18,10 @@
   display: flex;
 }
 
+.items-center{
+  align-items: center;
+}
+
 .grid{
   display: grid;
 }
@@ -26,11 +30,15 @@
   gap: 1rem;
 }
 
+.gap-1\.5{
+  gap: 1rem;
+}
+
 .container{
   --max-width: 375px;
   margin-inline: auto;
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
-  border: 1px solid #ee82ee;
+  /* border: 1px solid #ee82ee; */
 }
 
 .desktop-only{
