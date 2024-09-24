@@ -28,5 +28,9 @@
         width: 29.125rem;
       }
     }
+
+    .buttons{
+      gap: .85rem;
+    }
   }
 }
